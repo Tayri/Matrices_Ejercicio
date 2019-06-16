@@ -24,7 +24,20 @@ public class Github_Matrices {
         int nc = Integer.parseInt(JOptionPane.showInputDialog("Ingrese número de columnas para la matriz"));
         int m[][] = new int[nf][nc];
          
-        
+         for (int i = 0; i < nf; i++) {
+            for (int j = 0; j < nc; j++) {
+                m[i][j] = Integer.parseInt(JOptionPane.showInputDialog("Ingrese valor para la posición [" + (i + 1) + "," + (j + 1) + "] de la matriz"));
+            }
+        }
+         String result = "";
+        for (int i = 0; i < nf; i++) {
+            for (int j = 0; j < nc; j++) {
+                result += m[i][j];
+                result += "    ";
+            }
+            result += "\n";
+        }
+        JOptionPane.showMessageDialog(null, result);
+    }
     }
         
-}
