@@ -6,7 +6,7 @@
 package github_matrices;
 import java.util.Scanner;
 /**
- *
+ *autor: Tayri
  * @author Tayri
  */
 public class Github_Matrices {
