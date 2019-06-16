@@ -26,7 +26,7 @@ public class Github_Matrices {
         int LY4x4 = 4;
         int LY5x5 = 5;
         
-        boolean program = true;
+        boolean prog = true;
         
         Scanner m;
         int s;
@@ -45,23 +45,23 @@ public class Github_Matrices {
                 switch(s){
                     case 1:
                         Matriz3(LX3x3, LY3x3);
-                        program = false;
+                        prog = false;
                         break;
                         
                     case 2:
                         Matriz4(LX4x4, LY4x4);
-                        program = false;
+                        prog = false;
                         break;
                         
                     case 3:
                         Matriz5(LX5x5, LY5x5);
-                        program = false;
+                        prog = false;
                         break;
                 }
             }else{
                  System.out.println("Esta opción es errónea");
             }
-         }while(program == true);
+         }while(prog == true);
         
         }
     //Creacion matricess
