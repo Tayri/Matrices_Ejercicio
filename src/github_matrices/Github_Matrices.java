@@ -28,10 +28,51 @@ public class Github_Matrices {
         
         boolean program = true;
         
-        Scanner M;
+        Scanner m;
         int s;
         
+         System.out.println("Matrices: ");
+        
+        }
+    //Creacion matrices
+        public static void Matriz3(int x3, int y3){
+            for (int i = 0; i < x3; i++) {
+            for (int y = 0; y < y3; y++) {
+                if (i == 0 || y == 0 || i == x3 - 1 || y == y3 - 1) {
+                    System.out.print("1");
+                } else {
+                    System.out.print("0");
+                }
+            }
+            System.out.println("");
+        }
     }
- 
+        
+        public static void Matriz4(int x4, int y4){
+            for (int i = 0; i < x4; i++) {
+            for (int y = 0; y < y4; y++) {
+                if (i == 0 || y == 0 || i == x4 - 1 || y == y4 - 1) {
+                    System.out.print("1");
+                } else {
+                    System.out.print("0");
+                }
+            }
+            System.out.println("");
+        }
+        }
+        public static void Matriz5(int x5, int y5){
+            for (int i = 0; i < x5; i++) {
+            for (int y = 0; y < y5; y++) {
+                if (i == 0 || y == 0 || i == x5 - 1 || y == y5 - 1) {
+                    System.out.print("1");
+                } else {
+                    System.out.print("0");
+                }
+            }
+            System.out.println("");
+        }
+        }
     }
+
+    
     
