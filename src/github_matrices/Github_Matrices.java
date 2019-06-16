@@ -34,7 +34,7 @@ public class Github_Matrices {
          System.out.println("Matrices: ");
         
         }
-    //Creacion matrices
+    //Creacion matricess
         public static void Matriz3(int x3, int y3){
             for (int i = 0; i < x3; i++) {
             for (int y = 0; y < y3; y++) {
