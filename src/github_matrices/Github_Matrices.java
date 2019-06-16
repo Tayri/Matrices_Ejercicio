@@ -32,6 +32,36 @@ public class Github_Matrices {
         int s;
         
          System.out.println("Matrices: ");
+         
+         //creacion bucle do while
+         do{
+              System.out.println(menu);
+            
+            m  = new Scanner(System.in);
+
+            if (m.hasNextInt()){
+                s= m.nextInt();
+                
+                switch(s){
+                    case 1:
+                        Matriz3(LX3x3, LY3x3);
+                        program = false;
+                        break;
+                        
+                    case 2:
+                        Matriz4(LX4x4, LY4x4);
+                        program = false;
+                        break;
+                        
+                    case 3:
+                        Matriz5(LX5x5, LY5x5);
+                        program = false;
+                        break;
+                }
+            }else{
+                 System.out.println("Esta opción es errónea");
+            }
+         }while(program == true);
         
         }
     //Creacion matricess
