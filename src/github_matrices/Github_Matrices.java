@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package github_matrices;
-//import java.util.Scanner;
+import java.util.Scanner;
 /**
  *
  * @author Tayri
@@ -27,6 +27,8 @@ public class Github_Matrices {
         int LY5x5 = 5;
         
         boolean program = true;
+        
+        Scanner M;
         
     }
  
