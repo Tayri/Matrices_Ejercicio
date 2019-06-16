@@ -29,6 +29,7 @@ public class Github_Matrices {
         boolean program = true;
         
         Scanner M;
+        int s;
         
     }
  
